@@ -281,10 +281,14 @@ def QuickScan():
 
 
 if __name__ == "__main__":
-    # Choose one:
-    print("==Snapshot Scan==")
-    Snapshot()
+    x=input("Type 1 for Snapshot and 2 for QuickScan")
+    if(x==1):
+        print("==Snapshot Scan==")
+        Snapshot()
+    else:
+        print("=QuickScan=")
+        QuickScan()
 
-    #QuickScan()
+    
 
 print(f"Total vulnerabilities found: {len(Session_Store)}")
