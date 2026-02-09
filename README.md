@@ -1,6 +1,9 @@
+Here is the **complete, unified Markdown source code**.
 
-```
-### 🕵️ Varys (v2)
+You can copy this entire block and paste it directly into your `README.md` file. It includes the correct formatting for the Mermaid diagram, code blocks, and headers.
+
+```markdown
+# 🕵️ Varys (v2)
 
 **Zero-Clone GitHub Security Auditing & Secret Detection Engine**
 
@@ -10,7 +13,7 @@ Varys scans GitHub repositories for exposed secrets, risky artifacts, and depend
 
 ---
 
-###⚡ Why Varys?
+## ⚡ Why Varys?
 
 Most security scanners fail by choosing the wrong tradeoff:
 - **Full clones** → slow, noisy, bandwidth-heavy.
@@ -26,7 +29,7 @@ Silent. Fast. Complete.
 
 ---
 
-### 🧠 Scanning Modes
+## 🧠 Scanning Modes
 
 ### 🚀 QuickScan (Streaming Audit)
 
@@ -60,6 +63,7 @@ Snapshot mode prioritizes **completeness over speed**.
 
 ## ⚙️ Hybrid Traversal Engine
 
+```mermaid
 graph TD
     A[Start Scan] --> B{Depth Limit Reached?}
     B -- No --> C[Fetch File Content]
@@ -74,6 +78,8 @@ graph TD
     
     style F fill:#f96,stroke:#333,stroke-width:2px
     style G fill:#bbf,stroke:#333,stroke-width:2px
+
+```
 
 Varys dynamically adapts mid-scan:
 
@@ -252,3 +258,7 @@ Varys improves through sharp eyes.
 Pull requests welcome.
 
 **License:** MIT
+
+```
+
+```
