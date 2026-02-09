@@ -1,8 +1,5 @@
-Got it. That makes the branding much cleaner. I have updated the README to use **`varys`** as the CLI command throughout.
 
-Here is the corrected version:
-
-```markdown
+```
 # 🕵️ Varys (v2)
 
 **Zero-Clone GitHub Security Auditing & Secret Detection Engine**
